@@ -1,69 +1,246 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
-title: Ching Pui WAN's personal website
+# Content configuration version
+version: 2
+
+# Personal info
+name: WAN, Ching Pui
+title: Student researcher, Software engineer
 email: cpwan@ust.hk
-description: >- # this means to ignore newlines until "baseurl:"
-  Hello world. Welcome to my webpage.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+website: cpwan.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
 github_username:  cpwan
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: cpwan
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Ching Pui. You can also call me Patrick. I'm from Hong Kong. I'm doing a master in Computer Science. I am interested in topics in privacy-preserving AI and computer vision.
+
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Robust Federated Learning with Attack-Adaptive Aggregation
+        link: https://github.com/cpwan/Attack-Adaptive-Aggregation
+        # link_text: Project Website
+        additional_links:
+          - title:  Code
+            icon: fab fa-github
+            url: https://github.com/cpwan/Attack-Adaptive-Aggregation
+          - title: Paper
+            icon: fas fa-book
+            url: https://arxiv.org/abs/2102.05257
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        sub_title:  Master thesis
+        description: | # this will include new lines to allow paragraphs
+            Federated learning is vulnerable to various attacks, such as model poisoning and backdoor attacks, even if some existing defense strategies are used. 
+            To address this challenge, we propose an attack-adaptive aggregation strategy to defend against various attacks for robust federated learning. 
+            The proposed approach is based on training a neural network with an attention mechanism that learns the vulnerability of federated learning models from a set of plausible attacks. 
+            To the best of our knowledge, our aggregation strategy is the first one that can be adapted to defend against various attacks in a data-driven fashion. 
+            Our approach has achieved competitive performance in defending model poisoning and backdoor attacks in federated learning tasks on image and text datasets.
+      
+      - layout: top-middle
+        title: Colorization with Generative Adversarial Network
+        sub_title:  Independent study
+        caption: Feb. 2019 - Jun. 2019
+
+        description: | # this will include new lines to allow paragraphs
+            - Implemented U-net for image style transfer with `PyTorch`
+            - Performed colorization on cartoons with various source of training data
+
+      - layout: top-middle
+        title: Voice Spoofing with Machine Learning
+        sub_title:  Course project
+        caption: Sep. 2018 - Dec. 2018
+
+        description: | # this will include new lines to allow paragraphs
+            - Implemented GAN for voice synthesis on celebrities with `PyTorch`
+            - Built voice identification system against generated voice with Gaussian Mixture model
+
+            
+      - layout: top-middle
+        title: Travel Agent Chatbot
+        sub_title:  Course project
+        caption: Sep. 2017 - Dec. 2017
+
+        description: | # this will include new lines to allow paragraphs
+            - Built a chatbot on LINE messenger using `Java Spring Boot`, `JDBC` and `DialogFlow`
+            - Implemented a database management system with `Django`
+            - Practiced agile with pair programming and weekly sprint planning with Trello
+
+      - layout: top-middle
+        title: Low-Rank and Sparsity Reconstruction in Data Science
+        sub_title:  Undergraduate Research Opportunity Program
+        caption: Sep. 2016 - Dec. 2016
+
+        description: | # this will include new lines to allow paragraphs
+            - Perform literature reviews on sparse coding and dictionary learning
+            - Implemented text recognition with K-SVD on `MatLab`
+
+
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hong Kong University of Science & Technology
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Teaching assistant
+        caption: Feb. 2019 - Dec. 2019
+        # quote: >
+
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            - Responsible for two courses: a UG level OOP course, a PG level AI course 
+            - Delivered a tutorial on `C++` STL, designed coding assignments on template, operator overloading, friends 
+            - Designed written& coding assignments on perceptron/ search/ MDP/ knowledge representation/ game theory 
+            - Held AI contests for students to compete in a navigation mission with the AI methods they learnt
+
+      - layout: left
+        title: Google LA x Institute for Pure & Applied Mathematics
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research Internship in Los Angeles
+        caption: Jun. 2018 - Aug. 2018
+        quote: >
+          Why bother annotating every samples when most of them are negative anyway? Verify only the predicted positive samples and tune the classifiers, as well as their ensemble!
+        description: | # this will include new lines to allow paragraphs
+            - Project on “Extreme rare events classification with predicted positive data” 
+            - Developed algorithms for effective classifiers ensemble on limited training samples 
+            - Applied the software developed on advertising security 
+            - Delivered weekly meeting, reports, oral presentation with industrial sponsor from Google LA
+
+      - layout: left
+        title: Microsoft Research Asia x HKUST
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research Internship in Hong Kong
+        caption: Jun. 2017 - Aug. 2017
+        quote: >
+          What is the best trade-off between convergence and communication overhead in distributed machine learning? How about convex vs non convex case? Synchronous vs asynchronous SGD?
+
+        description: | # this will include new lines to allow paragraphs
+            - Project on “Efficient Communication in Distributed Machine Learning” 
+            - Implemented distributive machine learning with Microsoft’s deep learning framework (`CNTK`) on `C++ `
+            - Analyzed criteria for efficient distributed machine learning 
+            - Performed experiments on image classification, recommendation system, and language translation tasks
+
+  - title: Competition # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: BigDatathon, HKUST x Radica
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: First runner-up, Best Enterpreneur Award
+        caption: Dec. 2017
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            - Prototyped a ranking system for restaurants in Hong Kong based on sentiment analysis
+            - Extracted comments on restaurants from Instagram with `Selenium`
+            - Performed sentiment analysis on Instagram posts with Stanford CoreNLP
+            Projects
+
+      - layout: left
+        title: CodeIT Suisse, Credit Suisse
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: The 5th team
+        caption: Sep. 2019
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            - A coding competition on algorithms and time-series analysis
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hong Kong University of Science & Technology
+        caption: Sep. 2019 – Exp. Jul. 2021
+        sub_title: MPhil in Computer Science and Engineering
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          I did courses in Algorithms, Optimization in Machine Leaning, Deep learning, Data mining, Software Engineering, Security, 
+          
+          I worked on the thesis *Robust Federated Learning with Attack-Adaptive Aggregation*. 
+          The work explores the vulnerability of deep learning models trained in the federated learning setting. It learns to detect possible corrupted model updates in a self-supervised manner.
+
+      - layout: left
+        title: Hong Kong University of Science & Technology
+        caption: Sep. 2015 - Aug. 2019
+        sub_title: "B.Sc in Mathematics and Computer Science – GPA: 3.9/4.3, First Class Honors"
+        description: | # this will include new lines to allow paragraphs
+          Highlight coursework: Algorithm, Software Engineering, OOP, Probability, Statistical Inference, Analysis
+
+      - layout: left
+        title: ETH Zürich (Swiss Federal Institute of Technology in Zurich)
+        caption: Sep. 2018 - Jan. 2019
+        sub_title: "Exchange program – GPA: 5.3/6.0"
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Highlight coursework: Deep Learning, Advanced Machine Learning, Computer Vision
+
+  - title: Hobbies and interests
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Apart from machine learning and software engineering, i am also intersted in:
+      - Gaming 
+      - Manga and Anime
+      - Traveling
+# Footer
+# footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
-# theme: minima
-theme: minimal-mistakes-jekyll
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
-  - jekyll-feed
-include: ["_pages"]
-minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: splash
-
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+ - jekyll-seo-tag
