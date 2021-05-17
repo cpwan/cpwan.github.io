@@ -33,7 +33,7 @@ linkedin_username: cpwan
 additional_links:
 - title: Resume in pdf
   icon: fas fa-file-pdf
-  url: https://github.com/cpwan/cpwan.github.io/blob/debug/WAN.pdf
+  url: ./WAN.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
