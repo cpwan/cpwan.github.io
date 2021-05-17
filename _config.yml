@@ -34,9 +34,14 @@ additional_links:
 - title: Resume in pdf
   icon: fas fa-file-pdf
   url: https://cpwan.github.io/downloads/WAN.pdf
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+
+- title: Email link
+  icon: fas fa-envelope-square
+  url: mailto:cpwan@ust.hk
+
+- title: Skype
+  icon: fab fa-skype
+  url: skype:live:cpwan_9?chat
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
