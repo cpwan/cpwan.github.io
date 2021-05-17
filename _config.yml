@@ -30,10 +30,10 @@ linkedin_username: cpwan
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+additional_links:
+- title: Resume in pdf
+  icon: fas fa-file-pdf
+  url: https://github.com/cpwan/cpwan.github.io/blob/debug/WAN.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
