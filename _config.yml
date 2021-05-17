@@ -35,13 +35,13 @@ additional_links:
   icon: fas fa-file-pdf
   url: https://cpwan.github.io/downloads/WAN.pdf
 
-- title: Email link
-  icon: fas fa-envelope-square
-  url: mailto:cpwan@ust.hk
+# - title: Email link
+#   icon: fas fa-envelope-square
+#   url: "mailto:cpwan@ust"
 
-- title: Skype
-  icon: fab fa-skype
-  url: skype:live:cpwan_9?chat
+# - title: Skype
+#   icon: fab fa-skype
+#   url: "skype:live:cpwan_9?chat"
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
