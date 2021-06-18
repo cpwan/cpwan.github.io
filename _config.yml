@@ -96,7 +96,7 @@ content:
             icon: fas fa-book
             url: https://github.com/comp5331-Xtimeseries/Xtimeseries/blob/main/COMP_5331_Final_Report.pdf
           - title: Slides
-            icon: far fa-file-powerpoint
+            icon: fas fa-file-powerpoint
             url: https://github.com/comp5331-Xtimeseries/Xtimeseries/blob/main/slides.pdf
         description: | # this will include new lines to allow paragraphs
             - Implemented LST-Net, TPA-LSTM, mWDN for time sereis prediction with `PyTorch` and `Tensorflow`
