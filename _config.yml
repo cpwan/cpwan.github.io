@@ -98,7 +98,8 @@ content:
 
         description: | # this will include new lines to allow paragraphs
             - Implemented U-net for image style transfer with `PyTorch`
-            - Performed colorization on cartoons with various source of training data
+            - Performed experiments on regularizations and conditional discriminatior
+            - Performed colorization on various source of training data
 
       - layout: top-middle
         title: Voice Spoofing with Machine Learning
