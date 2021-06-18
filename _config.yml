@@ -98,7 +98,7 @@ content:
 
         description: | # this will include new lines to allow paragraphs
             - Implemented U-net for image style transfer with `PyTorch`
-            - Performed experiments on regularizations and conditional discriminatior
+            - Performed experiments on regularizations and conditional discriminator
             - Performed colorization on various source of training data
 
       - layout: top-middle
