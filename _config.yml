@@ -4,7 +4,6 @@ favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
-gtm: "GTM-MG7GSB5"
 # Personal info
 name: WAN, Ching Pui
 title: Student researcher, Software engineer
@@ -45,7 +44,7 @@ additional_links:
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-MG7GSB5"
+gtm: "GTM-MG7GSB5"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
