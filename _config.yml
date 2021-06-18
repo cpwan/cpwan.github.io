@@ -86,6 +86,15 @@ content:
         title: Colorization with Generative Adversarial Network
         sub_title:  Independent study
         caption: Feb. 2019 - Jun. 2019
+        link: https://github.com/cpwan/colorization-with-cGAN
+        # link_text: Project Website
+        additional_links:
+          - title:  Code
+            icon: fab fa-github
+            url: https://github.com/cpwan/colorization-with-cGAN
+          - title: Paper
+            icon: fas fa-book
+            url: https://github.com/cpwan/colorization-with-cGAN/blob/master/report.pdf
 
         description: | # this will include new lines to allow paragraphs
             - Implemented U-net for image style transfer with `PyTorch`
