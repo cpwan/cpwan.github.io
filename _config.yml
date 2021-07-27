@@ -139,7 +139,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             - Implemented U-net for image style transfer with `PyTorch`
             - Performed experiments on regularizations and conditional discriminator
-            - Performed colorization on various source of training data
+            - Performed colorization on various sources of training data
 
       - layout: top-middle
         title: Voice Spoofing with Machine Learning
@@ -181,14 +181,12 @@ content:
         # link_text: boringcompany.com
         sub_title: Teaching assistant
         caption: Feb. 2020 - Dec. 2020
-        # quote: >
 
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             - Responsible for two courses: a UG level OOP course, a PG level AI course 
             - Delivered a tutorial on `C++` STL, designed coding assignments on template, operator overloading, friends 
             - Designed written& coding assignments on perceptron/ search/ MDP/ knowledge representation/ game theory 
-            - Held AI contests for students to compete in a navigation mission with the AI methods they learnt
+            - Held AI contests for students to compete in a navigation mission with the AI methods they learned
 
       - layout: left
         title: Google LA x Institute for Pure & Applied Mathematics
@@ -197,12 +195,12 @@ content:
         sub_title: Research Internship in Los Angeles
         caption: Jun. 2018 - Aug. 2018
         quote: >
-          Why bother annotating every samples when most of them are negative anyway? Verify only the predicted positive samples and tune the classifiers, as well as their ensemble!
+          Why bother annotating every sample when most of them are negative anyway? Verify only the predicted positive samples and tune the classifiers, as well as their ensemble!
         description: | # this will include new lines to allow paragraphs
             - Project on “Extreme rare events classification with predicted positive data” 
             - Developed algorithms for effective classifiers ensemble on limited training samples 
             - Applied the software developed on advertising security 
-            - Delivered weekly meeting, reports, oral presentation with industrial sponsor from Google LA
+            - Delivered weekly meetings, reports, oral presentations with industrial sponsor from Google LA
 
       - layout: left
         title: Microsoft Research Asia x HKUST
@@ -211,7 +209,7 @@ content:
         sub_title: Research Internship in Hong Kong
         caption: Jun. 2017 - Aug. 2017
         quote: >
-          What is the best trade-off between convergence and communication overhead in distributed machine learning? How about convex vs non convex case? Synchronous vs asynchronous SGD?
+          What is the best trade-off between convergence and communication overhead in distributed machine learning? How about convex vs non-convex case? Synchronous vs asynchronous SGD?
 
         description: | # this will include new lines to allow paragraphs
             - Project on “Efficient Communication in Distributed Machine Learning” 
@@ -255,10 +253,9 @@ content:
         title: Hong Kong University of Science & Technology
         caption: Sep. 2019 – Exp. Jul. 2021
         sub_title: MPhil in Computer Science and Engineering
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+
         description: | # this will include new lines to allow paragraphs
-          I did courses in Algorithms, Optimization in Machine Leaning, Deep learning, Data mining, Software Engineering, Security, 
+          I did courses in Algorithms, Optimization in Machine Learning, Deep learning, Data mining, Software Engineering, Security, 
           
           I worked on the thesis *Robust Federated Learning with Attack-Adaptive Aggregation*. 
           The work explores the vulnerability of deep learning models trained in the federated learning setting. It learns to detect possible corrupted model updates in a self-supervised manner.
@@ -274,15 +271,14 @@ content:
         title: ETH Zürich (Swiss Federal Institute of Technology in Zurich)
         caption: Sep. 2018 - Jan. 2019
         sub_title: "Exchange program – GPA: 5.3/6.0"
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+
         description: | # this will include new lines to allow paragraphs
           Highlight coursework: Deep Learning, Advanced Machine Learning, Computer Vision
 
   - title: Hobbies and interests
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Apart from machine learning and software engineering, i am also intersted in:
+      Apart from machine learning and software engineering, I am also interested in:
       - Gaming 
       - Manga and Anime
       - Traveling
