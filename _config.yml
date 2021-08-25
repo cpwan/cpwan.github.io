@@ -74,7 +74,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         sub_title:  Master thesis
-        caption: [Best paper award](http://federated-learning.org/fl-ijcai-2021/BestPaper.png) in [FTL-IJCAI'21](http://federated-learning.org/fl-ijcai-2021/)
+        caption: Best paper award in FTL-IJCAI'21
         description: | # this will include new lines to allow paragraphs
             Federated learning is vulnerable to various attacks, such as model poisoning and backdoor attacks, even if some existing defense strategies are used. 
             To address this challenge, we propose an attack-adaptive aggregation strategy to defend against various attacks for robust federated learning. 
