@@ -6,8 +6,8 @@ favicon: images/favicon.ico
 version: 2
 # Personal info
 name: WAN, Ching Pui
-title: Student researcher, Software engineer
-email: cpwan@ust.hk
+title: Computer vision researcher, Software engineer
+email: cpwan@connect.ust.hk
 website: cpwan.github.io
 
 # Dark Mode (true/false/never)
@@ -36,7 +36,7 @@ additional_links:
 
 # - title: Email link
 #   icon: fas fa-envelope-square
-#   url: "mailto:cpwan@ust"
+#   url: "mailto:cpwan@connect.ust.hk"
 
 # - title: Skype
 #   icon: fab fa-skype
