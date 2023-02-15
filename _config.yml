@@ -52,10 +52,100 @@ gtm: "GTM-MG7GSB5"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Ching Pui. You can also call me Patrick. I'm from Hong Kong. I'm doing a master in Computer Science. I am interested in topics in privacy-preserving AI and computer vision.
+  Hi, my name's Ching Pui. You can also call me Patrick. I'm from Hong Kong. I am working as a Decision Intelligence Researcher at Lenovo. I am interested in computer vision, reinforcement learning, and privacy-preserving AI.
 
 
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hong Kong University of Science & Technology
+        caption: Sep. 2019 – Aug. 2021
+        sub_title: "MPhil in Computer Science and Engineering – GPA: 3.9/4.3"
+
+        description: | # this will include new lines to allow paragraphs
+          Highlight coursework: Advanced Algorithms, Optimization in Machine Learning, Deep Learning, Data Mining, Software Engineering, Security
+          
+          Thesis: *Robust Federated Learning with Attack-Adaptive Aggregation*, supervised by Prof Qifeng Chen
+
+      - layout: left
+        title: Hong Kong University of Science & Technology
+        caption: Sep. 2015 - Aug. 2019
+        sub_title: "B.Sc in Mathematics and Computer Science – GPA: 3.9/4.3, First Class Honors"
+        description: | # this will include new lines to allow paragraphs
+          Highlight coursework: Algorithm, Software Engineering, OOP, Probability, Statistical Inference, Analysis
+
+      - layout: left
+        title: ETH Zürich (Swiss Federal Institute of Technology in Zurich)
+        caption: Sep. 2018 - Jan. 2019
+        sub_title: "Exchange program – GPA: 5.3/6.0"
+
+        description: | # this will include new lines to allow paragraphs
+          Highlight coursework: Deep Learning, Advanced Machine Learning, Computer Vision
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Lenovo
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Decision Intelligence Researcher
+        caption: Sep. 2021 - Present
+        quote: >
+          Work smarter! Use deep learning models to support, augment, and automate decisions! 
+
+        description: | # this will include new lines to allow paragraphs
+            - Projects on deep learning tools for business intelligence and operation research
+            - Developed torchOCR, torchTable, and torchStructure for document image analysis
+            - Developed neural combinatorial optimization models with deep reinforcement learning
+            - Delivered digital transformation solutions to industry partners
+           
+    
+      - layout: left
+        title: Hong Kong University of Science & Technology
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Teaching assistant
+        caption: Feb. 2020 - Dec. 2020
+
+        description: | # this will include new lines to allow paragraphs
+            - Responsible for two courses: a UG level OOP course, a PG level AI course 
+            - Delivered a tutorial on `C++` STL, designed coding assignments on template, operator overloading, friends 
+            - Designed written& coding assignments on perceptron/ search/ MDP/ knowledge representation/ game theory 
+            - Held AI contests for students to compete in a navigation mission with the AI methods they learned
+
+      - layout: left
+        title: Google LA x Institute for Pure & Applied Mathematics
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research Internship in Los Angeles
+        caption: Jun. 2018 - Aug. 2018
+        quote: >
+          Why bother annotating every sample when most of them are negative anyway? Verify only the predicted positive samples and tune the classifiers, as well as their ensemble!
+        description: | # this will include new lines to allow paragraphs
+            - Project on “Extreme rare events classification with predicted positive data” 
+            - Developed algorithms for effective classifiers ensemble on limited training samples 
+            - Applied the algorithm on advertising security 
+            - Delivered weekly meetings, reports, and oral presentations with industrial sponsors from Google LA
+
+      - layout: left
+        title: Microsoft Research Asia x HKUST
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research Internship in Hong Kong
+        caption: Jun. 2017 - Aug. 2017
+        quote: >
+          What is the best trade-off between convergence and communication overhead in distributed machine learning? How about convex vs non-convex case? Synchronous vs asynchronous SGD?
+
+        description: | # this will include new lines to allow paragraphs
+            - Project on “Efficient Communication in Distributed Machine Learning” 
+            - Implemented distributive machine learning with Microsoft’s deep learning framework (`CNTK`) on `C++ `
+            - Analyzed criteria for efficient distributed machine learning 
+            - Performed experiments on image classification, recommendation system, and language translation tasks
+
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -173,50 +263,6 @@ content:
 
 
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Hong Kong University of Science & Technology
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Teaching assistant
-        caption: Feb. 2020 - Dec. 2020
-
-        description: | # this will include new lines to allow paragraphs
-            - Responsible for two courses: a UG level OOP course, a PG level AI course 
-            - Delivered a tutorial on `C++` STL, designed coding assignments on template, operator overloading, friends 
-            - Designed written& coding assignments on perceptron/ search/ MDP/ knowledge representation/ game theory 
-            - Held AI contests for students to compete in a navigation mission with the AI methods they learned
-
-      - layout: left
-        title: Google LA x Institute for Pure & Applied Mathematics
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Research Internship in Los Angeles
-        caption: Jun. 2018 - Aug. 2018
-        quote: >
-          Why bother annotating every sample when most of them are negative anyway? Verify only the predicted positive samples and tune the classifiers, as well as their ensemble!
-        description: | # this will include new lines to allow paragraphs
-            - Project on “Extreme rare events classification with predicted positive data” 
-            - Developed algorithms for effective classifiers ensemble on limited training samples 
-            - Applied the algorithm on advertising security 
-            - Delivered weekly meetings, reports, and oral presentations with industrial sponsors from Google LA
-
-      - layout: left
-        title: Microsoft Research Asia x HKUST
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Research Internship in Hong Kong
-        caption: Jun. 2017 - Aug. 2017
-        quote: >
-          What is the best trade-off between convergence and communication overhead in distributed machine learning? How about convex vs non-convex case? Synchronous vs asynchronous SGD?
-
-        description: | # this will include new lines to allow paragraphs
-            - Project on “Efficient Communication in Distributed Machine Learning” 
-            - Implemented distributive machine learning with Microsoft’s deep learning framework (`CNTK`) on `C++ `
-            - Analyzed criteria for efficient distributed machine learning 
-            - Performed experiments on image classification, recommendation system, and language translation tasks
 
   - title: Competition # Title for the section
     layout: list # Type of content section (list/text)
@@ -247,42 +293,13 @@ content:
             - A coding competition on algorithms and time-series analysis
 
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Hong Kong University of Science & Technology
-        caption: Sep. 2019 – Aug. 2021
-        sub_title: MPhil in Computer Science and Engineering
-
-        description: | # this will include new lines to allow paragraphs
-          Highlight coursework: Advanced Algorithms, Optimization in Machine Learning, Deep Learning, Data Mining, Software Engineering, Security
-          
-          Thesis *Robust Federated Learning with Attack-Adaptive Aggregation*. 
-          The work explores the vulnerability of deep learning models trained in the federated learning setting. It learns to detect possible corrupted model updates in a self-supervised manner.
-
-      - layout: left
-        title: Hong Kong University of Science & Technology
-        caption: Sep. 2015 - Aug. 2019
-        sub_title: "B.Sc in Mathematics and Computer Science – GPA: 3.9/4.3, First Class Honors"
-        description: | # this will include new lines to allow paragraphs
-          Highlight coursework: Algorithm, Software Engineering, OOP, Probability, Statistical Inference, Analysis
-
-      - layout: left
-        title: ETH Zürich (Swiss Federal Institute of Technology in Zurich)
-        caption: Sep. 2018 - Jan. 2019
-        sub_title: "Exchange program – GPA: 5.3/6.0"
-
-        description: | # this will include new lines to allow paragraphs
-          Highlight coursework: Deep Learning, Advanced Machine Learning, Computer Vision
-
   - title: Hobbies and interests
     layout: text
     content: | # this will include new lines to allow paragraphs
       Apart from machine learning and software engineering, I am also interested in:
       - Gaming 
       - Manga and Anime
-      - Traveling
+
 # Footer
 # footer_show_references: true
 # references_title: References on request (Override references text)
