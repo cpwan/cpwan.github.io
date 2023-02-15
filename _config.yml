@@ -65,9 +65,10 @@ content:
         sub_title: "MPhil in Computer Science and Engineering – GPA: 3.9/4.3"
 
         description: | # this will include new lines to allow paragraphs
-          Highlight coursework: Advanced Algorithms, Optimization in Machine Learning, Deep Learning, Data Mining, Software Engineering, Security
+          Highlight coursework: Advanced Algorithms, Optimization in Machine Learning, Deep Learning, Data Mining, Software Engineering
           
           Thesis: *Robust Federated Learning with Attack-Adaptive Aggregation*, supervised by Prof Qifeng Chen
+          Best paper award in FTL-IJCAI'21
 
       - layout: left
         title: Hong Kong University of Science & Technology
