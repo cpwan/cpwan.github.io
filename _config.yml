@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 # Personal info
 name: WAN, Ching Pui
-title: Computer vision researcher, Software engineer
+title: Deep Learning researcher, Software engineer
 email: cpwan@connect.ust.hk
 website: cpwan.github.io
 
@@ -94,7 +94,7 @@ content:
         sub_title: Decision Intelligence Researcher
         caption: Sep. 2021 - Present
         quote: >
-          Work smarter! Use deep learning models to support, augment, and automate decisions! 
+          Work smarter! Use deep learning models to support, augment, and automate decisions! From developing robust business intelligence tools to solving NP Hard problems in operation research!
 
         description: | # this will include new lines to allow paragraphs
             - Projects on deep learning tools for business intelligence and operation research
