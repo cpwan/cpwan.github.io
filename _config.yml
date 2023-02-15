@@ -99,9 +99,9 @@ content:
             icon: fas fa-file-powerpoint
             url: https://github.com/comp5331-Xtimeseries/Xtimeseries/blob/main/slides.pdf
         description: | # this will include new lines to allow paragraphs
-            - Implemented LST-Net, TPA-LSTM, mWDN for time sereis prediction with `PyTorch` and `Tensorflow`
-            - Performed experiments on multivatiate time sereis datasets
-            - Analyzed the effecitveness of SHAP for visual explanations of the time series models
+            - Implemented LST-Net, TPA-LSTM, mWDN for time series prediction with `PyTorch` and `Tensorflow`
+            - Performed experiments on multivariate time series datasets
+            - Analyzed the effectiveness of SHAP for visual explanations of the time series models
 
 
       - layout: top-middle
@@ -200,8 +200,8 @@ content:
         description: | # this will include new lines to allow paragraphs
             - Project on “Extreme rare events classification with predicted positive data” 
             - Developed algorithms for effective classifiers ensemble on limited training samples 
-            - Applied the software developed on advertising security 
-            - Delivered weekly meetings, reports, oral presentations with industrial sponsor from Google LA
+            - Applied the algorithm on advertising security 
+            - Delivered weekly meetings, reports, and oral presentations with industrial sponsors from Google LA
 
       - layout: left
         title: Microsoft Research Asia x HKUST
@@ -225,7 +225,7 @@ content:
         title: BigDatathon, HKUST x Radica
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: First runner-up, Best Enterpreneur Award
+        sub_title: First runner-up, Best Entrepreneur Award
         caption: Dec. 2017
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -256,9 +256,9 @@ content:
         sub_title: MPhil in Computer Science and Engineering
 
         description: | # this will include new lines to allow paragraphs
-          I did courses in Algorithms, Optimization in Machine Learning, Deep learning, Data mining, Software Engineering, Security, 
+          Highlight coursework: Advanced Algorithms, Optimization in Machine Learning, Deep Learning, Data Mining, Software Engineering, Security
           
-          I worked on the thesis *Robust Federated Learning with Attack-Adaptive Aggregation*. 
+          Thesis *Robust Federated Learning with Attack-Adaptive Aggregation*. 
           The work explores the vulnerability of deep learning models trained in the federated learning setting. It learns to detect possible corrupted model updates in a self-supervised manner.
 
       - layout: left
