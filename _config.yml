@@ -62,7 +62,7 @@ content:
       - layout: left
         title: Hong Kong University of Science & Technology
         caption: Sep. 2019 – Aug. 2021
-        sub_title: "MPhil in Computer Science and Engineering – GPA: 3.9/4.3"
+        sub_title: "MPhil in Computer Science and Engineering – GPA: 4.0/4.3"
 
         description: | # this will include new lines to allow paragraphs
           Highlight coursework: Advanced Algorithms, Optimization in Machine Learning, Deep Learning, Data Mining, Software Engineering
