@@ -98,10 +98,10 @@ content:
           Work smarter! Use deep learning models to support, augment, and automate decisions! From developing robust business intelligence tools to solving NP Hard problems in operation research!
 
         description: | # this will include new lines to allow paragraphs
-            - Projects on deep learning tools for business intelligence and operation research
-            - Developed torchOCR, torchTable, and torchStructure for document image analysis
+            - Projects on computer vision and reinforcement learning for business intelligence and operation research
+            - Developed OCR, table extraction, and layout parsing tools for light-weight document image analysis
             - Developed neural combinatorial optimization models with deep reinforcement learning
-            - Delivered digital transformation solutions to industry partners
+            - Delivered POC to industry partners on engineering diagram recognition
            
     
       - layout: left
