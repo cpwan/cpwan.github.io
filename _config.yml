@@ -99,8 +99,8 @@ content:
 
         description: | 
             - Projects on large language model and video analytics
-            - Deployed private LLMs and developed applications in chatbot, document question answering, and automation agents
-            - Trained object detection models and developed alarm systems for refuse room management and tunnel safety applications
+            - Deployed private LLMs and developed applications in chatbot, RAG on enterprise data, and automation agents
+            - Trained object detection models and developed alarm systems for refuse room management and tunnel safety 
             - Coached fresh graduates to develop competency in delivering AI solutions
             - `LangChain`, `HuggingFace`, `Llama2`, `Mistral`, `mmdetection`, `DINO`, `SAM`
     
