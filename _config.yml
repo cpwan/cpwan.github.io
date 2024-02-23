@@ -52,7 +52,7 @@ gtm: "GTM-MG7GSB5"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Ching Pui. You can also call me Patrick. I'm from Hong Kong. I am working as a Decision Intelligence Researcher at Lenovo. I am interested in computer vision, reinforcement learning, and privacy-preserving AI.
+  Hi, my name's Ching Pui. You can also call me Patrick. I'm from Hong Kong. I am working as a Data Engineer at Lenovo PCCW Solutions. I am interested in computer vision, foundation models, reinforcement learning, and privacy-preserving AI.
 
 
 content:
@@ -89,11 +89,27 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Lenovo PCCW Solutions
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Data Engineer
+        caption: June. 2023 - Present
+        quote: >
+          Deliver end-to-end AI solutions to help customers achieve their business goals!
+
+        description: | 
+            - Projects on video analytics and large language model
+            - Trained object detection models and developed alarm systems for refuse room management and tunnel safety applications
+            - Deployed private LLMs (Llama2, Mistral) and developed applications in chatbot, document question answering,and automation agents.
+            - Coached fresh graduates to develop competency in delivering AI solutions
+           
+    
+      - layout: left
         title: Lenovo
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Decision Intelligence Researcher
-        caption: Sep. 2021 - Present
+        caption: Sep. 2021 - May. 2023
         quote: >
           Work smarter! Use deep learning models to support, augment, and automate decisions! From developing robust business intelligence tools to solving NP Hard problems in operation research!
 
